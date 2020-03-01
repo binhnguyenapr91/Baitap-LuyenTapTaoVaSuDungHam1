@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let firstNum;
+    let secondNum;
+    let result;
+
+    console.log("firstNumber before call function:"+firstNum);
+    console.log("secondNumber before call function:"+secondNum);
+    console.log("Result before call function:"+result);
+    function addNumbers() {
+        firstNum = 4;
+        secondNum = 8;
+        result = firstNum + secondNum;
+        return result;
+    }
+    result = 0;
+    result = addNumbers();
+    console.log("firstNumber after call function:"+firstNum);
+    console.log("secondNumber after call function:"+secondNum);
+    console.log("Result after call function:"+result);
+</script>
+</body>
+</html>
